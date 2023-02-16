@@ -17,7 +17,7 @@ public class HelloController {
 
     @GetMapping("/")
     public Mono<String> index() {
-        logger.error("greet");
+        logger.trace("greet");
         return Mono.just("Greetings from Spring Boot!").flatMap((greet) -> {
             logger.error(greet);
             return Mono.just("Greetings from Spring Boot!");
