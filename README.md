@@ -4,7 +4,7 @@ This repository was created to host Spring Boot examples that replicate issues f
 
 Current issue:
 
-https://github.com/micrometer-metrics/tracing/issues/172
+https://github.com/micrometer-metrics/tracing/issues/174
 
 To reproduce just use the following curl command
 
